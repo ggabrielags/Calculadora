@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:rgb(218, 245, 252);
+}
+
+nav
+{
+    width: 80%;
+    height: 46px;
+    margin: 30px auto 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+nav a 
+{
+    background-color: rgb(105, 188, 192);
+    color: #ffffff;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+nav a:hover
+{
+    background-color:  #fafeff;
+    color:rgb(105, 188, 192);
+}
+
+.selecionada
+{
+    background-color: #d3f7ff;
+    color:rgb(86, 176, 180);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+{
+    appearance: none;
+}
